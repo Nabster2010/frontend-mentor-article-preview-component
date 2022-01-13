@@ -32,13 +32,13 @@ body {
   min-height: 300px;
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--Light-grayish-blue);
 }
 .img-wrapper {
   overflow: hidden;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .img-wrapper img {
   max-width: 375px;
@@ -72,7 +72,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   position: relative;
 }
 .user-info {
@@ -135,6 +135,8 @@ body {
   bottom: 0;
   background-color: var(--very-dark-grayish-blue);
   height: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 /* .btn-1:hover ~ .share-menu {
   visibility: visible;
@@ -178,14 +180,14 @@ body {
     flex-direction: row;
   }
   .img-wrapper {
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
   }
   .btn-2 {
     display: none;
   }
   .share-menu {
-    top: -60%;
+    top: -50%;
     left: 64%;
     padding: 0.5rem 0.7rem;
     justify-content: center;
@@ -208,8 +210,7 @@ body {
     height: 30px;
     width: 30px;
     background-color: var(--very-dark-grayish-blue);
-    left: 45%;
-
+    left: 52%;
     bottom: -15%;
     transform: rotate(45deg);
   }
@@ -221,6 +222,9 @@ body {
   }
   .card-content h1 {
     max-width: fit-content;
+  }
+  .social-container {
+    padding-bottom: 2rem;
   }
 }
 @media screen and (min-width: 1000px) {
